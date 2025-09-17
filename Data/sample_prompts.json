@@ -1,0 +1,16 @@
+{
+  "prompt_variants": [
+    {
+      "label": "Zero-shot concise",
+      "prompt": "Summarize the following text in 2–3 bullet points:\n\n{source}"
+    },
+    {
+      "label": "Role: Editor",
+      "prompt": "You are an expert editor. Write a neutral, factual 3-sentence summary of the following:\n\n{source}"
+    },
+    {
+      "label": "Chain-of-Thought",
+      "prompt": "Think step by step about the main points, then produce a faithful 4-sentence summary:\n\n{source}"
+    }
+  ]
+}
